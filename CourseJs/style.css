@@ -1,0 +1,76 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 16px;
+	line-height: 1.6;
+	border: none;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    padding: 0;
+    color:rgb(24, 99, 43);
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .heading {
+        font-size: 40px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+	* {
+		margin: 0;
+		padding: 6px;
+		line-height: 1.8;
+	}
+	.heading {
+		margin-bottom: -10px;
+		color: rgb(187, 55, 55);
+		font-size: 40px;
+	}
+	.note {
+		color: rgb(158, 158, 52);
+		font-size: 16px;
+	}
+    .title {
+        color:rgb(35, 112, 131);
+        padding: 0;
+        font-size: 28px;
+    }
+}
+
+body {
+	background-color: black;
+}
+
+#container {
+	background-color: #333;
+	color: rgb(211, 208, 208);
+}
+
+.heading {
+	margin-bottom: 16px;
+	color: rgb(187, 55, 55);
+}
+
+.note {
+	color: rgb(158, 158, 52);
+}
+
+.title {
+	padding: 6px 6px;
+    color:rgb(35, 112, 131);
+}
+
+.description {
+	margin: 0 26px;
+    font-size: 20px;
+}
